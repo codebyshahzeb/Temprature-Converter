@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🌡️ Temprature Converter</h1>
+        <div class="converter">
+            <input type="number" id="tempInput" placeholder="Enter Temprature">
+            <select name="" id="unit">
+                <option value="CtoF">Celsius to Fahrenheit</option>
+                <option value="FtoC">Fahrenheit to Celcius</option>
+            </select>
+            <button onclick="convertTemperature()">convert</button>
+            <div id="result"></div>
+        </div>
+    </div>
+</body>
+</html>
